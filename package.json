@@ -1,0 +1,27 @@
+{
+  "name": "creditscoring-dashboard",
+  "version": "1.0.0",
+  "description": "Credit Scoring Dashboard with Smart Contracts",
+  "main": "truffle-config.js",
+  "scripts": {
+    "migrate": "truffle migrate",
+    "migrate:sepolia": "truffle migrate --network sepolia",
+    "compile": "truffle compile",
+    "test": "truffle test"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "truffle": "^5.11.5"
+  },
+  "keywords": [
+    "ethereum",
+    "smart-contracts",
+    "truffle",
+    "credit-scoring"
+  ],
+  "author": "",
+  "license": "MIT"
+}
