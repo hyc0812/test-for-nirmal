@@ -8,13 +8,16 @@ WORKDIR /app
 COPY frontend/package*.json ./
 
 # Install dependencies
-RUN npm install --omit=dev
+RUN npm install
 
 # Copy source code from frontend directory
 COPY frontend/ .
 
-# Build the application
-RUN npm run build
+# Set proper permissions
+RUN chmod +x node_modules/.bin/*
+
+# Build the application using npx
+RUN npx react-scripts build
 
 # Production stage with nginx
 FROM nginx:alpine
@@ -30,3 +33,4 @@ EXPOSE 80
 
 # Start nginx
 CMD ["nginx", "-g", "daemon off;"]
+
