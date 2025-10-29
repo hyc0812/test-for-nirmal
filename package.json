@@ -7,7 +7,7 @@
     "migrate": "truffle migrate",
     "migrate:sepolia": "truffle migrate --network sepolia",
     "compile": "truffle compile",
-    "test": "truffle test"
+    "test": "truffle test --network sepolia"
   },
   "dependencies": {
     "@truffle/hdwallet-provider": "^2.1.15",
