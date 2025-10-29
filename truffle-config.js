@@ -87,6 +87,7 @@ module.exports = {
     // Note: It's important to wrap the provider as a function to ensure truffle uses a new provider every time.
     sepolia: {
        provider: () => new HDWalletProvider(
+         "solar energy fit measure problem build fire diagram merry obvious danger multiply",
          'https://sepolia.infura.io/v3/${process.env.1838bb90ccbb3580daabaea39992415f8b2ca68a3027599213874da201c27a2e}', 
          'https://sepolia.infura.io/v3/${process.env.6f55cd2cffbe4e48b3d097b1d22b507e}'
        ),
