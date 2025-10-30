@@ -38,7 +38,6 @@
         }
     ],
     "cpu": "1024",
-    "enableFaultInjection": false,
     "executionRoleArn": "arn:aws:iam::891376992027:role/LabRole",
     "family": "task-for-portfolio",
     "memory": "3072",
