@@ -30,7 +30,7 @@ RUN pwd && ls -la
 COPY ./nginx.conf /etc/nginx/nginx.conf
 
 # Expose port 80
-EXPOSE 8080
+EXPOSE 80
 
 # Start nginx
 CMD ["nginx", "-g", "daemon off;"]
