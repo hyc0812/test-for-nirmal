@@ -35,7 +35,7 @@ env:
   ECR_REPOSITORY: portfolio                                        # set this to your Amazon ECR repository name
   ECS_SERVICE: service-for-portfolio                               # set this to your Amazon ECS service name
   ECS_CLUSTER: cluster-for-portfolio                               # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: ./task-for-portfolio-revision1.json        # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: ./task-for-portfolio-revision6.json        # set this to the path to your Amazon ECS task definition
                                                                      # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: portfolio                                    # set this to the name of the container in the
                                                                    # containerDefinitions section of your task definition
